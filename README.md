@@ -1,6 +1,6 @@
 import cv2
 cap = cv2.VideoCapture(0)
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
+fourcc = cv2.VideoWriter_fourcc(*'MP4V')
 out = cv2.VideoWriter('kamalelfar.avi', fourcc, 30.0, (640, 480))
 
 while( True): 
